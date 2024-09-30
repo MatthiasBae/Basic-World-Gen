@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="TerrainLayerConfig" load_steps=3 format=3 uid="uid://cb101d6fis00i"]
+
+[ext_resource type="FastNoiseLite" uid="uid://d2wrv3e0rxape" path="res://resources/noises/terrain/TerrainNoise_Water_Rivers.tres" id="1_78lvr"]
+[ext_resource type="Script" path="res://scripts/terrains/TerrainLayerConfig.cs" id="2_avg1r"]
+
+[resource]
+script = ExtResource("2_avg1r")
+AtlasSourceId = 0
+Threshold = -0.555
+TerrainNoise = ExtResource("1_78lvr")
+Color = Color(0, 0, 0, 0)

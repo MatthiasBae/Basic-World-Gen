@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="BiomeConfig" load_steps=7 format=3 uid="uid://riakr46ayhdw"]
+
+[ext_resource type="Resource" uid="uid://bye3ru62fc3ys" path="res://configs/environment/AbioticFactors_Biome_Desert.tres" id="1_wv4fb"]
+[ext_resource type="Resource" uid="uid://bsuggktro3vhr" path="res://configs/terrain/TerrainLayerConfig_Underground_Dirt .tres" id="2_vr45h"]
+[ext_resource type="Resource" uid="uid://c012ya1t458h" path="res://configs/terrain/TerrainLayerConfig_SubSurface_Sand.tres" id="3_4yajv"]
+[ext_resource type="Resource" uid="uid://bffasbgwe28y5" path="res://configs/terrain/TerrainLayerConfig_Water_Oasis.tres" id="3_a1biv"]
+[ext_resource type="Resource" uid="uid://b77l8m48jabk5" path="res://configs/terrain/TerrainLayerConfig_Surface_GrassOasis .tres" id="5_87f8p"]
+[ext_resource type="Script" path="res://scripts/biomes/BiomeConfig.cs" id="7_3mc5i"]
+
+[resource]
+script = ExtResource("7_3mc5i")
+Name = "Desert"
+Description = ""
+AbioticFactorValues = ExtResource("1_wv4fb")
+TerrainLayerConfigs = {
+0: ExtResource("2_vr45h"),
+1: ExtResource("3_4yajv"),
+2: ExtResource("3_a1biv"),
+3: ExtResource("5_87f8p")
+}

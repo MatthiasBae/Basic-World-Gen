@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="TerrainLayerConfig" load_steps=3 format=3 uid="uid://c012ya1t458h"]
+
+[ext_resource type="FastNoiseLite" uid="uid://by12q5qk3p818" path="res://resources/noises/terrain/TerrainNoise_SubSurface_Default.tres" id="1_0oy78"]
+[ext_resource type="Script" path="res://scripts/terrains/TerrainLayerConfig.cs" id="2_wcoxm"]
+
+[resource]
+script = ExtResource("2_wcoxm")
+AtlasSourceId = 1
+Threshold = -0.541
+TerrainNoise = ExtResource("1_0oy78")
+Color = Color(0, 0, 0, 0)

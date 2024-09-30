@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="BitMask" load_steps=2 format=3 uid="uid://bflokpifir1vw"]
+
+[ext_resource type="Script" path="res://scripts/autotiling/BitMask.cs" id="1_s08jd"]
+
+[resource]
+script = ExtResource("1_s08jd")
+TopLeft = 1
+Top = 2
+TopRight = 4
+Left = 8
+Center = 16
+Right = 32
+BottomLeft = 64
+Bottom = 128
+BottomRight = 256

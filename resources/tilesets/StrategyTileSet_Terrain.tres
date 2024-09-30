@@ -1,0 +1,2615 @@
+[gd_resource type="Resource" script_class="StrategyTileSet" load_steps=412 format=3 uid="uid://bg1e0nj485d3q"]
+
+[ext_resource type="Resource" uid="uid://dks48nmq4qr2c" path="res://resources/tilesets/BitMask8Bit.tres" id="1_2eidy"]
+[ext_resource type="Script" path="res://scripts/autotiling/StrategyTileSet.cs" id="1_3ixfn"]
+[ext_resource type="Script" path="res://scripts/autotiling/StrategyTileSetSource.cs" id="1_h2371"]
+[ext_resource type="TileSet" uid="uid://cvtb8gvhrsoo4" path="res://resources/tilesets/TileSet_Terrain.tres" id="1_k4vgp"]
+[ext_resource type="Script" path="res://scripts/autotiling/StrategyTileVariant.cs" id="2_djxvq"]
+[ext_resource type="Script" path="res://scripts/autotiling/StrategyTile.cs" id="3_ki01k"]
+
+[sub_resource type="Resource" id="Resource_36d71"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_smvr7"]
+script = ExtResource("3_ki01k")
+BinaryValue = 0
+TileSetSourceId = 0
+Variants = [SubResource("Resource_36d71")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_xfy8d"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_o06a5"]
+script = ExtResource("3_ki01k")
+BinaryValue = 2
+TileSetSourceId = 0
+Variants = [SubResource("Resource_xfy8d")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_n3hb3"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_t7ng5"]
+script = ExtResource("3_ki01k")
+BinaryValue = 8
+TileSetSourceId = 0
+Variants = [SubResource("Resource_n3hb3")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_kuwk7"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_yulnh"]
+script = ExtResource("3_ki01k")
+BinaryValue = 10
+TileSetSourceId = 0
+Variants = [SubResource("Resource_kuwk7")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_vsk80"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_g2v5a"]
+script = ExtResource("3_ki01k")
+BinaryValue = 11
+TileSetSourceId = 0
+Variants = [SubResource("Resource_vsk80")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_7dufr"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_lebkm"]
+script = ExtResource("3_ki01k")
+BinaryValue = 16
+TileSetSourceId = 0
+Variants = [SubResource("Resource_7dufr")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_i76sc"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_y52my"]
+script = ExtResource("3_ki01k")
+BinaryValue = 18
+TileSetSourceId = 0
+Variants = [SubResource("Resource_i76sc")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_5ltwt"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_m7qa3"]
+script = ExtResource("3_ki01k")
+BinaryValue = 22
+TileSetSourceId = 0
+Variants = [SubResource("Resource_5ltwt")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_mocvo"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_yl2vq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 24
+TileSetSourceId = 0
+Variants = [SubResource("Resource_mocvo")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_kreb7"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_8saus"]
+script = ExtResource("3_ki01k")
+BinaryValue = 26
+TileSetSourceId = 0
+Variants = [SubResource("Resource_kreb7")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_05i7w"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_57saf"]
+script = ExtResource("3_ki01k")
+BinaryValue = 27
+TileSetSourceId = 0
+Variants = [SubResource("Resource_05i7w")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_2yax5"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_jp5ep"]
+script = ExtResource("3_ki01k")
+BinaryValue = 30
+TileSetSourceId = 0
+Variants = [SubResource("Resource_2yax5")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_nxytv"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_vhg70"]
+script = ExtResource("3_ki01k")
+BinaryValue = 31
+TileSetSourceId = 0
+Variants = [SubResource("Resource_nxytv")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_fj1vr"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_xljqq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 64
+TileSetSourceId = 0
+Variants = [SubResource("Resource_fj1vr")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ks04c"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ij1fv"]
+script = ExtResource("3_ki01k")
+BinaryValue = 66
+TileSetSourceId = 0
+Variants = [SubResource("Resource_ks04c")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_kc0hp"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_gm8yr"]
+script = ExtResource("3_ki01k")
+BinaryValue = 72
+TileSetSourceId = 0
+Variants = [SubResource("Resource_kc0hp")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_honq5"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(12, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_74d67"]
+script = ExtResource("3_ki01k")
+BinaryValue = 74
+TileSetSourceId = 0
+Variants = [SubResource("Resource_honq5")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ut1pg"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ffo2l"]
+script = ExtResource("3_ki01k")
+BinaryValue = 75
+TileSetSourceId = 0
+Variants = [SubResource("Resource_ut1pg")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_26nkb"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_p888i"]
+script = ExtResource("3_ki01k")
+BinaryValue = 80
+TileSetSourceId = 0
+Variants = [SubResource("Resource_26nkb")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_agfkm"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_wj0hj"]
+script = ExtResource("3_ki01k")
+BinaryValue = 82
+TileSetSourceId = 0
+Variants = [SubResource("Resource_agfkm")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_obbos"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_3k32x"]
+script = ExtResource("3_ki01k")
+BinaryValue = 86
+TileSetSourceId = 0
+Variants = [SubResource("Resource_obbos")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_fugrr"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_d1fi8"]
+script = ExtResource("3_ki01k")
+BinaryValue = 88
+TileSetSourceId = 0
+Variants = [SubResource("Resource_fugrr")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_5dlqf"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_warla"]
+script = ExtResource("3_ki01k")
+BinaryValue = 90
+TileSetSourceId = 0
+Variants = [SubResource("Resource_5dlqf")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_8q8sn"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_1ygxp"]
+script = ExtResource("3_ki01k")
+BinaryValue = 91
+TileSetSourceId = 0
+Variants = [SubResource("Resource_8q8sn")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_dcceq"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_w60vh"]
+script = ExtResource("3_ki01k")
+BinaryValue = 94
+TileSetSourceId = 0
+Variants = [SubResource("Resource_dcceq")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_vqwla"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_2jpdo"]
+script = ExtResource("3_ki01k")
+BinaryValue = 95
+TileSetSourceId = 0
+Variants = [SubResource("Resource_vqwla")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_diohn"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_gjkkp"]
+script = ExtResource("3_ki01k")
+BinaryValue = 104
+TileSetSourceId = 0
+Variants = [SubResource("Resource_diohn")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_712hq"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_b2qao"]
+script = ExtResource("3_ki01k")
+BinaryValue = 106
+TileSetSourceId = 0
+Variants = [SubResource("Resource_712hq")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ef75q"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_se53b"]
+script = ExtResource("3_ki01k")
+BinaryValue = 107
+TileSetSourceId = 0
+Variants = [SubResource("Resource_ef75q")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_42wvt"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_g7bwl"]
+script = ExtResource("3_ki01k")
+BinaryValue = 120
+TileSetSourceId = 0
+Variants = [SubResource("Resource_42wvt")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_hmmpq"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_2lov2"]
+script = ExtResource("3_ki01k")
+BinaryValue = 122
+TileSetSourceId = 0
+Variants = [SubResource("Resource_hmmpq")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_uqw7n"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_gsm5m"]
+script = ExtResource("3_ki01k")
+BinaryValue = 123
+TileSetSourceId = 0
+Variants = [SubResource("Resource_uqw7n")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_q1ilf"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_6bfht"]
+script = ExtResource("3_ki01k")
+BinaryValue = 126
+TileSetSourceId = 0
+Variants = [SubResource("Resource_q1ilf")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_sbphj"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_0qfvg"]
+script = ExtResource("3_ki01k")
+BinaryValue = 127
+TileSetSourceId = 0
+Variants = [SubResource("Resource_sbphj")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_6267g"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ocf5m"]
+script = ExtResource("3_ki01k")
+BinaryValue = 208
+TileSetSourceId = 0
+Variants = [SubResource("Resource_6267g")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_6ff84"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_gj5dd"]
+script = ExtResource("3_ki01k")
+BinaryValue = 210
+TileSetSourceId = 0
+Variants = [SubResource("Resource_6ff84")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_n0fch"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_iw1r8"]
+script = ExtResource("3_ki01k")
+BinaryValue = 214
+TileSetSourceId = 0
+Variants = [SubResource("Resource_n0fch")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_c02pm"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_gjeb1"]
+script = ExtResource("3_ki01k")
+BinaryValue = 216
+TileSetSourceId = 0
+Variants = [SubResource("Resource_c02pm")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_7l02k"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_e2aba"]
+script = ExtResource("3_ki01k")
+BinaryValue = 218
+TileSetSourceId = 0
+Variants = [SubResource("Resource_7l02k")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_3yetl"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_4opc5"]
+script = ExtResource("3_ki01k")
+BinaryValue = 219
+TileSetSourceId = 0
+Variants = [SubResource("Resource_3yetl")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_np43m"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_060y7"]
+script = ExtResource("3_ki01k")
+BinaryValue = 222
+TileSetSourceId = 0
+Variants = [SubResource("Resource_np43m")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_2r4m6"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_iy7fo"]
+script = ExtResource("3_ki01k")
+BinaryValue = 223
+TileSetSourceId = 0
+Variants = [SubResource("Resource_2r4m6")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_k4ioj"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_151r5"]
+script = ExtResource("3_ki01k")
+BinaryValue = 248
+TileSetSourceId = 0
+Variants = [SubResource("Resource_k4ioj")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_qpaew"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_o3h85"]
+script = ExtResource("3_ki01k")
+BinaryValue = 250
+TileSetSourceId = 0
+Variants = [SubResource("Resource_qpaew")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_0lhp7"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_3dc4e"]
+script = ExtResource("3_ki01k")
+BinaryValue = 251
+TileSetSourceId = 0
+Variants = [SubResource("Resource_0lhp7")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_gopvj"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_wv4ih"]
+script = ExtResource("3_ki01k")
+BinaryValue = 254
+TileSetSourceId = 0
+Variants = [SubResource("Resource_gopvj")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_s6712"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_kunmy"]
+script = ExtResource("3_ki01k")
+BinaryValue = 255
+TileSetSourceId = 0
+Variants = [SubResource("Resource_s6712")]
+IsEdge = false
+
+[sub_resource type="Resource" id="Resource_aro3q"]
+script = ExtResource("1_h2371")
+TileSetSourceId = 0
+BitMask = ExtResource("1_2eidy")
+NonEdgeTileBinaries = []
+StrategyTiles = {
+0: SubResource("Resource_smvr7"),
+2: SubResource("Resource_o06a5"),
+8: SubResource("Resource_t7ng5"),
+10: SubResource("Resource_yulnh"),
+11: SubResource("Resource_g2v5a"),
+16: SubResource("Resource_lebkm"),
+18: SubResource("Resource_y52my"),
+22: SubResource("Resource_m7qa3"),
+24: SubResource("Resource_yl2vq"),
+26: SubResource("Resource_8saus"),
+27: SubResource("Resource_57saf"),
+30: SubResource("Resource_jp5ep"),
+31: SubResource("Resource_vhg70"),
+64: SubResource("Resource_xljqq"),
+66: SubResource("Resource_ij1fv"),
+72: SubResource("Resource_gm8yr"),
+74: SubResource("Resource_74d67"),
+75: SubResource("Resource_ffo2l"),
+80: SubResource("Resource_p888i"),
+82: SubResource("Resource_wj0hj"),
+86: SubResource("Resource_3k32x"),
+88: SubResource("Resource_d1fi8"),
+90: SubResource("Resource_warla"),
+91: SubResource("Resource_1ygxp"),
+94: SubResource("Resource_w60vh"),
+95: SubResource("Resource_2jpdo"),
+104: SubResource("Resource_gjkkp"),
+106: SubResource("Resource_b2qao"),
+107: SubResource("Resource_se53b"),
+120: SubResource("Resource_g7bwl"),
+122: SubResource("Resource_2lov2"),
+123: SubResource("Resource_gsm5m"),
+126: SubResource("Resource_6bfht"),
+127: SubResource("Resource_0qfvg"),
+208: SubResource("Resource_ocf5m"),
+210: SubResource("Resource_gj5dd"),
+214: SubResource("Resource_iw1r8"),
+216: SubResource("Resource_gjeb1"),
+218: SubResource("Resource_e2aba"),
+219: SubResource("Resource_4opc5"),
+222: SubResource("Resource_060y7"),
+223: SubResource("Resource_iy7fo"),
+248: SubResource("Resource_151r5"),
+250: SubResource("Resource_o3h85"),
+251: SubResource("Resource_3dc4e"),
+254: SubResource("Resource_wv4ih"),
+255: SubResource("Resource_kunmy")
+}
+
+[sub_resource type="Resource" id="Resource_vwqaj"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_2ulq8"]
+script = ExtResource("3_ki01k")
+BinaryValue = 0
+TileSetSourceId = 1
+Variants = [SubResource("Resource_vwqaj")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_8xy5w"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_od7fw"]
+script = ExtResource("3_ki01k")
+BinaryValue = 2
+TileSetSourceId = 1
+Variants = [SubResource("Resource_8xy5w")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_rloji"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_iytyo"]
+script = ExtResource("3_ki01k")
+BinaryValue = 8
+TileSetSourceId = 1
+Variants = [SubResource("Resource_rloji")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_x8xnk"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_py7s8"]
+script = ExtResource("3_ki01k")
+BinaryValue = 10
+TileSetSourceId = 1
+Variants = [SubResource("Resource_x8xnk")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_omwfy"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_poh4k"]
+script = ExtResource("3_ki01k")
+BinaryValue = 11
+TileSetSourceId = 1
+Variants = [SubResource("Resource_omwfy")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_uyhe3"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_voron"]
+script = ExtResource("3_ki01k")
+BinaryValue = 16
+TileSetSourceId = 1
+Variants = [SubResource("Resource_uyhe3")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_iesd5"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ynt4n"]
+script = ExtResource("3_ki01k")
+BinaryValue = 18
+TileSetSourceId = 1
+Variants = [SubResource("Resource_iesd5")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_p2ild"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_3rkqf"]
+script = ExtResource("3_ki01k")
+BinaryValue = 22
+TileSetSourceId = 1
+Variants = [SubResource("Resource_p2ild")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_2trw6"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_odjy0"]
+script = ExtResource("3_ki01k")
+BinaryValue = 24
+TileSetSourceId = 1
+Variants = [SubResource("Resource_2trw6")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_d41sy"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_xom4v"]
+script = ExtResource("3_ki01k")
+BinaryValue = 26
+TileSetSourceId = 1
+Variants = [SubResource("Resource_d41sy")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_kjqb2"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_oam3v"]
+script = ExtResource("3_ki01k")
+BinaryValue = 27
+TileSetSourceId = 1
+Variants = [SubResource("Resource_kjqb2")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_wvd24"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ubjiu"]
+script = ExtResource("3_ki01k")
+BinaryValue = 30
+TileSetSourceId = 1
+Variants = [SubResource("Resource_wvd24")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_db4go"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_hd7ve"]
+script = ExtResource("3_ki01k")
+BinaryValue = 31
+TileSetSourceId = 1
+Variants = [SubResource("Resource_db4go")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_imfla"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_uwvl3"]
+script = ExtResource("3_ki01k")
+BinaryValue = 64
+TileSetSourceId = 1
+Variants = [SubResource("Resource_imfla")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_230o4"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_m8i3g"]
+script = ExtResource("3_ki01k")
+BinaryValue = 66
+TileSetSourceId = 1
+Variants = [SubResource("Resource_230o4")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_7vujs"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_46mlo"]
+script = ExtResource("3_ki01k")
+BinaryValue = 72
+TileSetSourceId = 1
+Variants = [SubResource("Resource_7vujs")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_2lmqa"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(12, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_flthq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 74
+TileSetSourceId = 1
+Variants = [SubResource("Resource_2lmqa")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_125ps"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_mnxwu"]
+script = ExtResource("3_ki01k")
+BinaryValue = 75
+TileSetSourceId = 1
+Variants = [SubResource("Resource_125ps")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_vkg8n"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ewg3y"]
+script = ExtResource("3_ki01k")
+BinaryValue = 80
+TileSetSourceId = 1
+Variants = [SubResource("Resource_vkg8n")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_vw0l5"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_pylkq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 82
+TileSetSourceId = 1
+Variants = [SubResource("Resource_vw0l5")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_huxf6"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_55qtw"]
+script = ExtResource("3_ki01k")
+BinaryValue = 86
+TileSetSourceId = 1
+Variants = [SubResource("Resource_huxf6")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_gey2y"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ntttu"]
+script = ExtResource("3_ki01k")
+BinaryValue = 88
+TileSetSourceId = 1
+Variants = [SubResource("Resource_gey2y")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_gvfcn"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_b5oqr"]
+script = ExtResource("3_ki01k")
+BinaryValue = 90
+TileSetSourceId = 1
+Variants = [SubResource("Resource_gvfcn")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_eboh3"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_7ps4x"]
+script = ExtResource("3_ki01k")
+BinaryValue = 91
+TileSetSourceId = 1
+Variants = [SubResource("Resource_eboh3")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_j801v"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_bglqa"]
+script = ExtResource("3_ki01k")
+BinaryValue = 94
+TileSetSourceId = 1
+Variants = [SubResource("Resource_j801v")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_kqtso"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_jw3cs"]
+script = ExtResource("3_ki01k")
+BinaryValue = 95
+TileSetSourceId = 1
+Variants = [SubResource("Resource_kqtso")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_rvece"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_opk6j"]
+script = ExtResource("3_ki01k")
+BinaryValue = 104
+TileSetSourceId = 1
+Variants = [SubResource("Resource_rvece")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ybsif"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_jwjup"]
+script = ExtResource("3_ki01k")
+BinaryValue = 106
+TileSetSourceId = 1
+Variants = [SubResource("Resource_ybsif")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_6krdr"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_eowns"]
+script = ExtResource("3_ki01k")
+BinaryValue = 107
+TileSetSourceId = 1
+Variants = [SubResource("Resource_6krdr")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_xpkit"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_2svp6"]
+script = ExtResource("3_ki01k")
+BinaryValue = 120
+TileSetSourceId = 1
+Variants = [SubResource("Resource_xpkit")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_0wfy8"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_grmkt"]
+script = ExtResource("3_ki01k")
+BinaryValue = 122
+TileSetSourceId = 1
+Variants = [SubResource("Resource_0wfy8")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_h5hg4"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_u1evg"]
+script = ExtResource("3_ki01k")
+BinaryValue = 123
+TileSetSourceId = 1
+Variants = [SubResource("Resource_h5hg4")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ga5cd"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_t5i8i"]
+script = ExtResource("3_ki01k")
+BinaryValue = 126
+TileSetSourceId = 1
+Variants = [SubResource("Resource_ga5cd")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_2ecym"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_k7g1b"]
+script = ExtResource("3_ki01k")
+BinaryValue = 127
+TileSetSourceId = 1
+Variants = [SubResource("Resource_2ecym")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_2e3fb"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_uhw43"]
+script = ExtResource("3_ki01k")
+BinaryValue = 208
+TileSetSourceId = 1
+Variants = [SubResource("Resource_2e3fb")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ycepk"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_8a84o"]
+script = ExtResource("3_ki01k")
+BinaryValue = 210
+TileSetSourceId = 1
+Variants = [SubResource("Resource_ycepk")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_4qlo0"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_vfaa2"]
+script = ExtResource("3_ki01k")
+BinaryValue = 214
+TileSetSourceId = 1
+Variants = [SubResource("Resource_4qlo0")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_pk22g"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_pdx7g"]
+script = ExtResource("3_ki01k")
+BinaryValue = 216
+TileSetSourceId = 1
+Variants = [SubResource("Resource_pk22g")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_wwa3r"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_dywyp"]
+script = ExtResource("3_ki01k")
+BinaryValue = 218
+TileSetSourceId = 1
+Variants = [SubResource("Resource_wwa3r")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_wo483"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_pdkd8"]
+script = ExtResource("3_ki01k")
+BinaryValue = 219
+TileSetSourceId = 1
+Variants = [SubResource("Resource_wo483")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_474a6"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_qr1u5"]
+script = ExtResource("3_ki01k")
+BinaryValue = 222
+TileSetSourceId = 1
+Variants = [SubResource("Resource_474a6")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_xq50m"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_silbh"]
+script = ExtResource("3_ki01k")
+BinaryValue = 223
+TileSetSourceId = 1
+Variants = [SubResource("Resource_xq50m")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_tn0qy"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_t65gu"]
+script = ExtResource("3_ki01k")
+BinaryValue = 248
+TileSetSourceId = 1
+Variants = [SubResource("Resource_tn0qy")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_6gelk"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_xo1ih"]
+script = ExtResource("3_ki01k")
+BinaryValue = 250
+TileSetSourceId = 1
+Variants = [SubResource("Resource_6gelk")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_1y828"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_yhxah"]
+script = ExtResource("3_ki01k")
+BinaryValue = 251
+TileSetSourceId = 1
+Variants = [SubResource("Resource_1y828")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_o0y6x"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_dv4xj"]
+script = ExtResource("3_ki01k")
+BinaryValue = 254
+TileSetSourceId = 1
+Variants = [SubResource("Resource_o0y6x")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ej7qu"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_3wmgs"]
+script = ExtResource("3_ki01k")
+BinaryValue = 255
+TileSetSourceId = 1
+Variants = [SubResource("Resource_ej7qu")]
+IsEdge = false
+
+[sub_resource type="Resource" id="Resource_awht4"]
+script = ExtResource("1_h2371")
+TileSetSourceId = 1
+BitMask = ExtResource("1_2eidy")
+NonEdgeTileBinaries = []
+StrategyTiles = {
+0: SubResource("Resource_2ulq8"),
+2: SubResource("Resource_od7fw"),
+8: SubResource("Resource_iytyo"),
+10: SubResource("Resource_py7s8"),
+11: SubResource("Resource_poh4k"),
+16: SubResource("Resource_voron"),
+18: SubResource("Resource_ynt4n"),
+22: SubResource("Resource_3rkqf"),
+24: SubResource("Resource_odjy0"),
+26: SubResource("Resource_xom4v"),
+27: SubResource("Resource_oam3v"),
+30: SubResource("Resource_ubjiu"),
+31: SubResource("Resource_hd7ve"),
+64: SubResource("Resource_uwvl3"),
+66: SubResource("Resource_m8i3g"),
+72: SubResource("Resource_46mlo"),
+74: SubResource("Resource_flthq"),
+75: SubResource("Resource_mnxwu"),
+80: SubResource("Resource_ewg3y"),
+82: SubResource("Resource_pylkq"),
+86: SubResource("Resource_55qtw"),
+88: SubResource("Resource_ntttu"),
+90: SubResource("Resource_b5oqr"),
+91: SubResource("Resource_7ps4x"),
+94: SubResource("Resource_bglqa"),
+95: SubResource("Resource_jw3cs"),
+104: SubResource("Resource_opk6j"),
+106: SubResource("Resource_jwjup"),
+107: SubResource("Resource_eowns"),
+120: SubResource("Resource_2svp6"),
+122: SubResource("Resource_grmkt"),
+123: SubResource("Resource_u1evg"),
+126: SubResource("Resource_t5i8i"),
+127: SubResource("Resource_k7g1b"),
+208: SubResource("Resource_uhw43"),
+210: SubResource("Resource_8a84o"),
+214: SubResource("Resource_vfaa2"),
+216: SubResource("Resource_pdx7g"),
+218: SubResource("Resource_dywyp"),
+219: SubResource("Resource_pdkd8"),
+222: SubResource("Resource_qr1u5"),
+223: SubResource("Resource_silbh"),
+248: SubResource("Resource_t65gu"),
+250: SubResource("Resource_xo1ih"),
+251: SubResource("Resource_yhxah"),
+254: SubResource("Resource_dv4xj"),
+255: SubResource("Resource_3wmgs")
+}
+
+[sub_resource type="Resource" id="Resource_ifbio"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_u8n0y"]
+script = ExtResource("3_ki01k")
+BinaryValue = 0
+TileSetSourceId = 2
+Variants = [SubResource("Resource_ifbio")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_qyiru"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_q2frc"]
+script = ExtResource("3_ki01k")
+BinaryValue = 2
+TileSetSourceId = 2
+Variants = [SubResource("Resource_qyiru")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_xtwew"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_7ncpk"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 7)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_raqxx"]
+script = ExtResource("3_ki01k")
+BinaryValue = 8
+TileSetSourceId = 2
+Variants = [SubResource("Resource_xtwew"), SubResource("Resource_7ncpk")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_m2ovj"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_yw1b1"]
+script = ExtResource("3_ki01k")
+BinaryValue = 10
+TileSetSourceId = 2
+Variants = [SubResource("Resource_m2ovj")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_sw0vr"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_jrw0d"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 6)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_r5iv0"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 10)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_7eewq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 11
+TileSetSourceId = 2
+Variants = [SubResource("Resource_sw0vr"), SubResource("Resource_jrw0d"), SubResource("Resource_r5iv0")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_2v3h7"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_46sdc"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 7)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_7h576"]
+script = ExtResource("3_ki01k")
+BinaryValue = 16
+TileSetSourceId = 2
+Variants = [SubResource("Resource_2v3h7"), SubResource("Resource_46sdc")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ifunw"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_dkftw"]
+script = ExtResource("3_ki01k")
+BinaryValue = 18
+TileSetSourceId = 2
+Variants = [SubResource("Resource_ifunw")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_337jv"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_t0thl"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 6)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_fx3gu"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 10)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_0b0ih"]
+script = ExtResource("3_ki01k")
+BinaryValue = 22
+TileSetSourceId = 2
+Variants = [SubResource("Resource_337jv"), SubResource("Resource_t0thl"), SubResource("Resource_fx3gu")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_lsgts"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_wqvf4"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 7)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_bpuh7"]
+script = ExtResource("3_ki01k")
+BinaryValue = 24
+TileSetSourceId = 2
+Variants = [SubResource("Resource_lsgts"), SubResource("Resource_wqvf4")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_obgk8"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_rnrh2"]
+script = ExtResource("3_ki01k")
+BinaryValue = 26
+TileSetSourceId = 2
+Variants = [SubResource("Resource_obgk8")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_lggd6"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_baa6j"]
+script = ExtResource("3_ki01k")
+BinaryValue = 27
+TileSetSourceId = 2
+Variants = [SubResource("Resource_lggd6")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ek82b"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_u0awl"]
+script = ExtResource("3_ki01k")
+BinaryValue = 30
+TileSetSourceId = 2
+Variants = [SubResource("Resource_ek82b")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_fc70y"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_nlemn"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 6)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_gid7k"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 10)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_bo3t7"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 14)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_223d7"]
+script = ExtResource("3_ki01k")
+BinaryValue = 31
+TileSetSourceId = 2
+Variants = [SubResource("Resource_fc70y"), SubResource("Resource_nlemn"), SubResource("Resource_gid7k"), SubResource("Resource_bo3t7")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_1sk6j"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_c2167"]
+script = ExtResource("3_ki01k")
+BinaryValue = 64
+TileSetSourceId = 2
+Variants = [SubResource("Resource_1sk6j")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_g1vin"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_2lgoh"]
+script = ExtResource("3_ki01k")
+BinaryValue = 66
+TileSetSourceId = 2
+Variants = [SubResource("Resource_g1vin")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_jghoc"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_8le17"]
+script = ExtResource("3_ki01k")
+BinaryValue = 72
+TileSetSourceId = 2
+Variants = [SubResource("Resource_jghoc")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_wj57y"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(12, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_14kmu"]
+script = ExtResource("3_ki01k")
+BinaryValue = 74
+TileSetSourceId = 2
+Variants = [SubResource("Resource_wj57y")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_5n6kf"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_8a400"]
+script = ExtResource("3_ki01k")
+BinaryValue = 75
+TileSetSourceId = 2
+Variants = [SubResource("Resource_5n6kf")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ksamv"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_345w5"]
+script = ExtResource("3_ki01k")
+BinaryValue = 80
+TileSetSourceId = 2
+Variants = [SubResource("Resource_ksamv")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_h0mce"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_584qa"]
+script = ExtResource("3_ki01k")
+BinaryValue = 82
+TileSetSourceId = 2
+Variants = [SubResource("Resource_h0mce")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ykymm"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_jx72w"]
+script = ExtResource("3_ki01k")
+BinaryValue = 86
+TileSetSourceId = 2
+Variants = [SubResource("Resource_ykymm")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_x4ssp"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_hirdq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 88
+TileSetSourceId = 2
+Variants = [SubResource("Resource_x4ssp")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_eo5lf"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_t6xrp"]
+script = ExtResource("3_ki01k")
+BinaryValue = 90
+TileSetSourceId = 2
+Variants = [SubResource("Resource_eo5lf")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_470gy"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_as5w1"]
+script = ExtResource("3_ki01k")
+BinaryValue = 91
+TileSetSourceId = 2
+Variants = [SubResource("Resource_470gy")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_l316q"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_l11vy"]
+script = ExtResource("3_ki01k")
+BinaryValue = 94
+TileSetSourceId = 2
+Variants = [SubResource("Resource_l316q")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_cqrby"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_wqdsj"]
+script = ExtResource("3_ki01k")
+BinaryValue = 95
+TileSetSourceId = 2
+Variants = [SubResource("Resource_cqrby")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_w7nwn"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_oy45j"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 4)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_elwnt"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 8)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_gxqpv"]
+script = ExtResource("3_ki01k")
+BinaryValue = 104
+TileSetSourceId = 2
+Variants = [SubResource("Resource_w7nwn"), SubResource("Resource_oy45j"), SubResource("Resource_elwnt")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_5eqw1"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ywuw7"]
+script = ExtResource("3_ki01k")
+BinaryValue = 106
+TileSetSourceId = 2
+Variants = [SubResource("Resource_5eqw1")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_nwheq"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_dwjna"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 5)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_cgwcp"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 9)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ksfkk"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 13)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_h58ao"]
+script = ExtResource("3_ki01k")
+BinaryValue = 107
+TileSetSourceId = 2
+Variants = [SubResource("Resource_nwheq"), SubResource("Resource_dwjna"), SubResource("Resource_cgwcp"), SubResource("Resource_ksfkk")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_chh3d"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_s43m3"]
+script = ExtResource("3_ki01k")
+BinaryValue = 120
+TileSetSourceId = 2
+Variants = [SubResource("Resource_chh3d")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_mb01t"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_j6h71"]
+script = ExtResource("3_ki01k")
+BinaryValue = 122
+TileSetSourceId = 2
+Variants = [SubResource("Resource_mb01t")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_wg1ex"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_lbh75"]
+script = ExtResource("3_ki01k")
+BinaryValue = 123
+TileSetSourceId = 2
+Variants = [SubResource("Resource_wg1ex")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_0ngt2"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_o2jma"]
+script = ExtResource("3_ki01k")
+BinaryValue = 126
+TileSetSourceId = 2
+Variants = [SubResource("Resource_0ngt2")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_u5e06"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_dmm1u"]
+script = ExtResource("3_ki01k")
+BinaryValue = 127
+TileSetSourceId = 2
+Variants = [SubResource("Resource_u5e06")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_7ug42"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_p4myq"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 4)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_awbob"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 8)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_8ssoc"]
+script = ExtResource("3_ki01k")
+BinaryValue = 208
+TileSetSourceId = 2
+Variants = [SubResource("Resource_7ug42"), SubResource("Resource_p4myq"), SubResource("Resource_awbob")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_uc3ov"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_rc1bi"]
+script = ExtResource("3_ki01k")
+BinaryValue = 210
+TileSetSourceId = 2
+Variants = [SubResource("Resource_uc3ov")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_1qid8"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_tqtty"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 5)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_pfahu"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 9)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_rg3aj"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 13)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_66jeq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 214
+TileSetSourceId = 2
+Variants = [SubResource("Resource_1qid8"), SubResource("Resource_tqtty"), SubResource("Resource_pfahu"), SubResource("Resource_rg3aj")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_q1870"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_idq4e"]
+script = ExtResource("3_ki01k")
+BinaryValue = 216
+TileSetSourceId = 2
+Variants = [SubResource("Resource_q1870")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_e12m7"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_6o364"]
+script = ExtResource("3_ki01k")
+BinaryValue = 218
+TileSetSourceId = 2
+Variants = [SubResource("Resource_e12m7")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_a2dun"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_n1sos"]
+script = ExtResource("3_ki01k")
+BinaryValue = 219
+TileSetSourceId = 2
+Variants = [SubResource("Resource_a2dun")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_6q7yv"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ggyqk"]
+script = ExtResource("3_ki01k")
+BinaryValue = 222
+TileSetSourceId = 2
+Variants = [SubResource("Resource_6q7yv")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_uvwrb"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_pr6cu"]
+script = ExtResource("3_ki01k")
+BinaryValue = 223
+TileSetSourceId = 2
+Variants = [SubResource("Resource_uvwrb")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_1p0ii"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_yqmrq"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 4)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ebok1"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 8)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_la7eg"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 12)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_0uyij"]
+script = ExtResource("3_ki01k")
+BinaryValue = 248
+TileSetSourceId = 2
+Variants = [SubResource("Resource_1p0ii"), SubResource("Resource_yqmrq"), SubResource("Resource_ebok1"), SubResource("Resource_la7eg")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_m35tv"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_5qifm"]
+script = ExtResource("3_ki01k")
+BinaryValue = 250
+TileSetSourceId = 2
+Variants = [SubResource("Resource_m35tv")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_pxaki"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_11qtf"]
+script = ExtResource("3_ki01k")
+BinaryValue = 251
+TileSetSourceId = 2
+Variants = [SubResource("Resource_pxaki")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_i2tqh"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_jotr6"]
+script = ExtResource("3_ki01k")
+BinaryValue = 254
+TileSetSourceId = 2
+Variants = [SubResource("Resource_i2tqh")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_74l6c"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_m3ns3"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 5)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_fgoyq"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 9)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_uv4ag"]
+script = ExtResource("3_ki01k")
+BinaryValue = 255
+TileSetSourceId = 2
+Variants = [SubResource("Resource_74l6c"), SubResource("Resource_m3ns3"), SubResource("Resource_fgoyq")]
+IsEdge = false
+
+[sub_resource type="Resource" id="Resource_txj0t"]
+script = ExtResource("1_h2371")
+TileSetSourceId = 2
+BitMask = ExtResource("1_2eidy")
+NonEdgeTileBinaries = []
+StrategyTiles = {
+0: SubResource("Resource_u8n0y"),
+2: SubResource("Resource_q2frc"),
+8: SubResource("Resource_raqxx"),
+10: SubResource("Resource_yw1b1"),
+11: SubResource("Resource_7eewq"),
+16: SubResource("Resource_7h576"),
+18: SubResource("Resource_dkftw"),
+22: SubResource("Resource_0b0ih"),
+24: SubResource("Resource_bpuh7"),
+26: SubResource("Resource_rnrh2"),
+27: SubResource("Resource_baa6j"),
+30: SubResource("Resource_u0awl"),
+31: SubResource("Resource_223d7"),
+64: SubResource("Resource_c2167"),
+66: SubResource("Resource_2lgoh"),
+72: SubResource("Resource_8le17"),
+74: SubResource("Resource_14kmu"),
+75: SubResource("Resource_8a400"),
+80: SubResource("Resource_345w5"),
+82: SubResource("Resource_584qa"),
+86: SubResource("Resource_jx72w"),
+88: SubResource("Resource_hirdq"),
+90: SubResource("Resource_t6xrp"),
+91: SubResource("Resource_as5w1"),
+94: SubResource("Resource_l11vy"),
+95: SubResource("Resource_wqdsj"),
+104: SubResource("Resource_gxqpv"),
+106: SubResource("Resource_ywuw7"),
+107: SubResource("Resource_h58ao"),
+120: SubResource("Resource_s43m3"),
+122: SubResource("Resource_j6h71"),
+123: SubResource("Resource_lbh75"),
+126: SubResource("Resource_o2jma"),
+127: SubResource("Resource_dmm1u"),
+208: SubResource("Resource_8ssoc"),
+210: SubResource("Resource_rc1bi"),
+214: SubResource("Resource_66jeq"),
+216: SubResource("Resource_idq4e"),
+218: SubResource("Resource_6o364"),
+219: SubResource("Resource_n1sos"),
+222: SubResource("Resource_ggyqk"),
+223: SubResource("Resource_pr6cu"),
+248: SubResource("Resource_0uyij"),
+250: SubResource("Resource_5qifm"),
+251: SubResource("Resource_11qtf"),
+254: SubResource("Resource_jotr6"),
+255: SubResource("Resource_uv4ag")
+}
+
+[sub_resource type="Resource" id="Resource_ffa2x"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_xbwsk"]
+script = ExtResource("3_ki01k")
+BinaryValue = 0
+TileSetSourceId = 3
+Variants = [SubResource("Resource_ffa2x")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_tgaba"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_eu846"]
+script = ExtResource("3_ki01k")
+BinaryValue = 2
+TileSetSourceId = 3
+Variants = [SubResource("Resource_tgaba")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_pbts6"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_65f6k"]
+script = ExtResource("3_ki01k")
+BinaryValue = 8
+TileSetSourceId = 3
+Variants = [SubResource("Resource_pbts6")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_7gdh6"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_yihlf"]
+script = ExtResource("3_ki01k")
+BinaryValue = 10
+TileSetSourceId = 3
+Variants = [SubResource("Resource_7gdh6")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_3thom"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_pf825"]
+script = ExtResource("3_ki01k")
+BinaryValue = 11
+TileSetSourceId = 3
+Variants = [SubResource("Resource_3thom")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_yahwi"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_osojw"]
+script = ExtResource("3_ki01k")
+BinaryValue = 16
+TileSetSourceId = 3
+Variants = [SubResource("Resource_yahwi")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_08ccm"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_xy1bd"]
+script = ExtResource("3_ki01k")
+BinaryValue = 18
+TileSetSourceId = 3
+Variants = [SubResource("Resource_08ccm")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_13nuc"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_7cv4v"]
+script = ExtResource("3_ki01k")
+BinaryValue = 22
+TileSetSourceId = 3
+Variants = [SubResource("Resource_13nuc")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_kvxqp"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_6kbwi"]
+script = ExtResource("3_ki01k")
+BinaryValue = 24
+TileSetSourceId = 3
+Variants = [SubResource("Resource_kvxqp")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_e3fhj"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_1p5s6"]
+script = ExtResource("3_ki01k")
+BinaryValue = 26
+TileSetSourceId = 3
+Variants = [SubResource("Resource_e3fhj")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_277m7"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_x10er"]
+script = ExtResource("3_ki01k")
+BinaryValue = 27
+TileSetSourceId = 3
+Variants = [SubResource("Resource_277m7")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_nn1o5"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_w6du3"]
+script = ExtResource("3_ki01k")
+BinaryValue = 30
+TileSetSourceId = 3
+Variants = [SubResource("Resource_nn1o5")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_t7nrc"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_4ki48"]
+script = ExtResource("3_ki01k")
+BinaryValue = 31
+TileSetSourceId = 3
+Variants = [SubResource("Resource_t7nrc")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_r476g"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ullji"]
+script = ExtResource("3_ki01k")
+BinaryValue = 64
+TileSetSourceId = 3
+Variants = [SubResource("Resource_r476g")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_duyh5"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(3, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_3cc58"]
+script = ExtResource("3_ki01k")
+BinaryValue = 66
+TileSetSourceId = 3
+Variants = [SubResource("Resource_duyh5")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_wveeg"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_drkm6"]
+script = ExtResource("3_ki01k")
+BinaryValue = 72
+TileSetSourceId = 3
+Variants = [SubResource("Resource_wveeg")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_4ifqa"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(12, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_op502"]
+script = ExtResource("3_ki01k")
+BinaryValue = 74
+TileSetSourceId = 3
+Variants = [SubResource("Resource_4ifqa")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_prgi0"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_mth53"]
+script = ExtResource("3_ki01k")
+BinaryValue = 75
+TileSetSourceId = 3
+Variants = [SubResource("Resource_prgi0")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_nycca"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_hpmmd"]
+script = ExtResource("3_ki01k")
+BinaryValue = 80
+TileSetSourceId = 3
+Variants = [SubResource("Resource_nycca")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_o2egf"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_371de"]
+script = ExtResource("3_ki01k")
+BinaryValue = 82
+TileSetSourceId = 3
+Variants = [SubResource("Resource_o2egf")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_udxuq"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_wrc5x"]
+script = ExtResource("3_ki01k")
+BinaryValue = 86
+TileSetSourceId = 3
+Variants = [SubResource("Resource_udxuq")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_loo5f"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_qsbua"]
+script = ExtResource("3_ki01k")
+BinaryValue = 88
+TileSetSourceId = 3
+Variants = [SubResource("Resource_loo5f")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_fjsi0"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 3)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_1leex"]
+script = ExtResource("3_ki01k")
+BinaryValue = 90
+TileSetSourceId = 3
+Variants = [SubResource("Resource_fjsi0")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_m1iqn"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_jjxil"]
+script = ExtResource("3_ki01k")
+BinaryValue = 91
+TileSetSourceId = 3
+Variants = [SubResource("Resource_m1iqn")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_gar71"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_05uhf"]
+script = ExtResource("3_ki01k")
+BinaryValue = 94
+TileSetSourceId = 3
+Variants = [SubResource("Resource_gar71")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_qxl43"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_apsuf"]
+script = ExtResource("3_ki01k")
+BinaryValue = 95
+TileSetSourceId = 3
+Variants = [SubResource("Resource_qxl43")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ypvhs"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_c1idr"]
+script = ExtResource("3_ki01k")
+BinaryValue = 104
+TileSetSourceId = 3
+Variants = [SubResource("Resource_ypvhs")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_4toov"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(7, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_pykmy"]
+script = ExtResource("3_ki01k")
+BinaryValue = 106
+TileSetSourceId = 3
+Variants = [SubResource("Resource_4toov")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_1jeps"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(2, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_mrq0v"]
+script = ExtResource("3_ki01k")
+BinaryValue = 107
+TileSetSourceId = 3
+Variants = [SubResource("Resource_1jeps")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_kmmpe"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_erhdq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 120
+TileSetSourceId = 3
+Variants = [SubResource("Resource_kmmpe")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_0mfrd"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_4el7p"]
+script = ExtResource("3_ki01k")
+BinaryValue = 122
+TileSetSourceId = 3
+Variants = [SubResource("Resource_0mfrd")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_de0qb"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_m4s7y"]
+script = ExtResource("3_ki01k")
+BinaryValue = 123
+TileSetSourceId = 3
+Variants = [SubResource("Resource_de0qb")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_ajqo3"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_246of"]
+script = ExtResource("3_ki01k")
+BinaryValue = 126
+TileSetSourceId = 3
+Variants = [SubResource("Resource_ajqo3")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_o4bcc"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_lrcli"]
+script = ExtResource("3_ki01k")
+BinaryValue = 127
+TileSetSourceId = 3
+Variants = [SubResource("Resource_o4bcc")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_u16iy"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_5s3aq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 208
+TileSetSourceId = 3
+Variants = [SubResource("Resource_u16iy")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_xg7ob"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(4, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_eruyc"]
+script = ExtResource("3_ki01k")
+BinaryValue = 210
+TileSetSourceId = 3
+Variants = [SubResource("Resource_xg7ob")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_akpkc"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(0, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_duxqf"]
+script = ExtResource("3_ki01k")
+BinaryValue = 214
+TileSetSourceId = 3
+Variants = [SubResource("Resource_akpkc")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_53onf"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_otnsy"]
+script = ExtResource("3_ki01k")
+BinaryValue = 216
+TileSetSourceId = 3
+Variants = [SubResource("Resource_53onf")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_4ww0u"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(10, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_vxyqq"]
+script = ExtResource("3_ki01k")
+BinaryValue = 218
+TileSetSourceId = 3
+Variants = [SubResource("Resource_4ww0u")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_dy5rs"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(9, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_ibdgg"]
+script = ExtResource("3_ki01k")
+BinaryValue = 219
+TileSetSourceId = 3
+Variants = [SubResource("Resource_dy5rs")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_0yone"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(11, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_rex8i"]
+script = ExtResource("3_ki01k")
+BinaryValue = 222
+TileSetSourceId = 3
+Variants = [SubResource("Resource_0yone")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_h7u1c"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_0rf40"]
+script = ExtResource("3_ki01k")
+BinaryValue = 223
+TileSetSourceId = 3
+Variants = [SubResource("Resource_h7u1c")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_pvdsf"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 0)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_mwina"]
+script = ExtResource("3_ki01k")
+BinaryValue = 248
+TileSetSourceId = 3
+Variants = [SubResource("Resource_pvdsf")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_73l75"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(8, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_16sg7"]
+script = ExtResource("3_ki01k")
+BinaryValue = 250
+TileSetSourceId = 3
+Variants = [SubResource("Resource_73l75")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_o1vj3"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(5, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_quk3o"]
+script = ExtResource("3_ki01k")
+BinaryValue = 251
+TileSetSourceId = 3
+Variants = [SubResource("Resource_o1vj3")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_4ticw"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(6, 2)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_s3fil"]
+script = ExtResource("3_ki01k")
+BinaryValue = 254
+TileSetSourceId = 3
+Variants = [SubResource("Resource_4ticw")]
+IsEdge = true
+
+[sub_resource type="Resource" id="Resource_fi4yd"]
+script = ExtResource("2_djxvq")
+AtlasCoordinates = Vector2i(1, 1)
+Probability = 1.0
+
+[sub_resource type="Resource" id="Resource_5s6fn"]
+script = ExtResource("3_ki01k")
+BinaryValue = 255
+TileSetSourceId = 3
+Variants = [SubResource("Resource_fi4yd")]
+IsEdge = false
+
+[sub_resource type="Resource" id="Resource_7prd0"]
+script = ExtResource("1_h2371")
+TileSetSourceId = 3
+BitMask = ExtResource("1_2eidy")
+NonEdgeTileBinaries = []
+StrategyTiles = {
+0: SubResource("Resource_xbwsk"),
+2: SubResource("Resource_eu846"),
+8: SubResource("Resource_65f6k"),
+10: SubResource("Resource_yihlf"),
+11: SubResource("Resource_pf825"),
+16: SubResource("Resource_osojw"),
+18: SubResource("Resource_xy1bd"),
+22: SubResource("Resource_7cv4v"),
+24: SubResource("Resource_6kbwi"),
+26: SubResource("Resource_1p5s6"),
+27: SubResource("Resource_x10er"),
+30: SubResource("Resource_w6du3"),
+31: SubResource("Resource_4ki48"),
+64: SubResource("Resource_ullji"),
+66: SubResource("Resource_3cc58"),
+72: SubResource("Resource_drkm6"),
+74: SubResource("Resource_op502"),
+75: SubResource("Resource_mth53"),
+80: SubResource("Resource_hpmmd"),
+82: SubResource("Resource_371de"),
+86: SubResource("Resource_wrc5x"),
+88: SubResource("Resource_qsbua"),
+90: SubResource("Resource_1leex"),
+91: SubResource("Resource_jjxil"),
+94: SubResource("Resource_05uhf"),
+95: SubResource("Resource_apsuf"),
+104: SubResource("Resource_c1idr"),
+106: SubResource("Resource_pykmy"),
+107: SubResource("Resource_mrq0v"),
+120: SubResource("Resource_erhdq"),
+122: SubResource("Resource_4el7p"),
+123: SubResource("Resource_m4s7y"),
+126: SubResource("Resource_246of"),
+127: SubResource("Resource_lrcli"),
+208: SubResource("Resource_5s3aq"),
+210: SubResource("Resource_eruyc"),
+214: SubResource("Resource_duxqf"),
+216: SubResource("Resource_otnsy"),
+218: SubResource("Resource_vxyqq"),
+219: SubResource("Resource_ibdgg"),
+222: SubResource("Resource_rex8i"),
+223: SubResource("Resource_0rf40"),
+248: SubResource("Resource_mwina"),
+250: SubResource("Resource_16sg7"),
+251: SubResource("Resource_quk3o"),
+254: SubResource("Resource_s3fil"),
+255: SubResource("Resource_5s6fn")
+}
+
+[resource]
+script = ExtResource("1_3ixfn")
+TileSet = ExtResource("1_k4vgp")
+FallbackBitMask = ExtResource("1_2eidy")
+StrategyTileSetSources = [SubResource("Resource_aro3q"), SubResource("Resource_awht4"), SubResource("Resource_txj0t"), SubResource("Resource_7prd0")]

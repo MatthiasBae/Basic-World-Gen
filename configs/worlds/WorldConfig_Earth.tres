@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="WorldConfig" load_steps=5 format=3 uid="uid://b0sgjwr76eq4n"]
+
+[ext_resource type="Resource" uid="uid://d2kt5dvtir4l7" path="res://configs/environment/AbioticFactorNoises_World_Earth.tres" id="1_yeb2p"]
+[ext_resource type="Resource" uid="uid://b1fdrjnwtl4i1" path="res://configs/environment/AbioticFactors_World_Earth.tres" id="2_h0i7t"]
+[ext_resource type="Resource" uid="uid://nfolk3d5gqb5" path="res://configs/biomes/BiomeConfig_Plain.tres" id="6_s01dq"]
+[ext_resource type="Script" path="res://scripts/worlds/WorldConfig.cs" id="7_mqjne"]
+
+[resource]
+script = ExtResource("7_mqjne")
+Name = "Earth"
+Description = ""
+AbioticFactors = ExtResource("2_h0i7t")
+AbioticFactorNoises = ExtResource("1_yeb2p")
+BiomeConfigs = Array[Object]([ExtResource("6_s01dq")])

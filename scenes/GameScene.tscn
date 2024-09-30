@@ -1,0 +1,237 @@
+[gd_scene load_steps=35 format=3 uid="uid://b5xfhqwsuh8yn"]
+
+[ext_resource type="Script" path="res://scripts/interface/FPSLabel.cs" id="1_fvpgv"]
+[ext_resource type="Script" path="res://scripts/ObjectTracker.cs" id="1_o1fb5"]
+[ext_resource type="Script" path="res://scripts/services/TaskHub.cs" id="1_q27j4"]
+[ext_resource type="Script" path="res://scripts/worlds/World.cs" id="1_w87ud"]
+[ext_resource type="Script" path="res://scripts/worlds/WorldArea.cs" id="2_g44ef"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProvider.cs" id="2_u5ase"]
+[ext_resource type="Script" path="res://scripts/worlds/WorldController.cs" id="3_5rl6u"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkController.cs" id="4_5hny0"]
+[ext_resource type="Resource" uid="uid://b0sgjwr76eq4n" path="res://configs/worlds/WorldConfig_Earth.tres" id="5_c5vrr"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkStore.cs" id="5_yl3o3"]
+[ext_resource type="Script" path="res://scripts/terrains/TerrainRenderer.cs" id="7_q5m8v"]
+[ext_resource type="Script" path="res://scripts/actors/PlayerFake.cs" id="7_sis2i"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkAreaConfig.cs" id="8_qrat5"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProcessorPrepare.cs" id="9_pmyoh"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProcessorLoad.cs" id="10_fgn85"]
+[ext_resource type="Texture2D" uid="uid://b1xghc20y07ge" path="res://icon.svg" id="10_nyym8"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProcessorRender.cs" id="11_hae04"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProcessorEntitySpawn.cs" id="12_8qy35"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProcessorActorSpawn.cs" id="13_7wp5i"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProcessorActorDespawn.cs" id="14_7kvsu"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProcessorEntityDespawn.cs" id="15_5sm1t"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProcessorUnrender.cs" id="16_v71pk"]
+[ext_resource type="Script" path="res://scripts/chunks/ChunkProcessorUnload.cs" id="17_4oca7"]
+[ext_resource type="Script" path="res://scripts/tilemap/Tilemap.cs" id="24_77lpq"]
+[ext_resource type="Resource" uid="uid://ballnfful811t" path="res://configs/tilemaps/TilemapLayerMapping_Terrain.tres" id="24_kjgha"]
+[ext_resource type="Script" path="res://scripts/tilemap/TilemapLayer.cs" id="26_de3bl"]
+[ext_resource type="TileSet" uid="uid://cvtb8gvhrsoo4" path="res://resources/tilesets/TileSet_Terrain.tres" id="26_shhqh"]
+[ext_resource type="Resource" uid="uid://bg1e0nj485d3q" path="res://resources/tilesets/StrategyTileSet_Terrain.tres" id="27_dwdxy"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i4uu2"]
+radius = 91.81
+height = 183.62
+
+[sub_resource type="Resource" id="Resource_bmqsv"]
+script = ExtResource("8_qrat5")
+ProcessState = 1
+Radius = 8
+
+[sub_resource type="Resource" id="Resource_0xjnf"]
+script = ExtResource("8_qrat5")
+ProcessState = 2
+Radius = 6
+
+[sub_resource type="Resource" id="Resource_8x76a"]
+script = ExtResource("8_qrat5")
+ProcessState = 3
+Radius = 4
+
+[sub_resource type="Resource" id="Resource_2oky5"]
+script = ExtResource("8_qrat5")
+ProcessState = 4
+Radius = 3
+
+[sub_resource type="Resource" id="Resource_cfypd"]
+script = ExtResource("8_qrat5")
+ProcessState = 5
+Radius = 2
+
+[node name="Game" type="Node"]
+
+[node name="UserInterface" type="Node" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="UserInterface"]
+
+[node name="Control" type="VBoxContainer" parent="UserInterface/CanvasLayer" node_paths=PackedStringArray("_FpsLabel", "_PositionLabel", "_ObjectTracker")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fvpgv")
+_FpsLabel = NodePath("Label")
+_PositionLabel = NodePath("Label2")
+_ObjectTracker = NodePath("../../../PlayerController/PlayerTracker")
+
+[node name="Label" type="Label" parent="UserInterface/CanvasLayer/Control"]
+layout_mode = 2
+text = "FPS:"
+
+[node name="Label2" type="Label" parent="UserInterface/CanvasLayer/Control"]
+layout_mode = 2
+text = "POS"
+
+[node name="Services" type="Node" parent="."]
+
+[node name="WorkerThreads" type="Node" parent="Services"]
+script = ExtResource("1_q27j4")
+
+[node name="Providers" type="Node" parent="Services"]
+
+[node name="EntityProvider" type="Node" parent="Services/Providers"]
+
+[node name="ActorProvider" type="Node" parent="Services/Providers"]
+
+[node name="PlayerController" type="Node" parent="."]
+
+[node name="PlayerTracker" type="Node" parent="PlayerController" node_paths=PackedStringArray("_TrackedObject")]
+script = ExtResource("1_o1fb5")
+_TrackedObject = NodePath("../../WorldController/World/ActorController/PlayerFake")
+
+[node name="WorldController" type="Node" parent="." node_paths=PackedStringArray("ActiveWorld")]
+script = ExtResource("3_5rl6u")
+ActiveWorld = NodePath("World")
+
+[node name="World" type="Node2D" parent="WorldController"]
+script = ExtResource("1_w87ud")
+Config = ExtResource("5_c5vrr")
+
+[node name="EntityController" type="Node2D" parent="WorldController/World"]
+
+[node name="ActorController" type="Node2D" parent="WorldController/World"]
+
+[node name="PlayerFake" type="CharacterBody2D" parent="WorldController/World/ActorController"]
+script = ExtResource("7_sis2i")
+
+[node name="Camera2D" type="Camera2D" parent="WorldController/World/ActorController/PlayerFake"]
+zoom = Vector2(0.1, 0.1)
+
+[node name="Sprite2D" type="Sprite2D" parent="WorldController/World/ActorController/PlayerFake"]
+texture = ExtResource("10_nyym8")
+region_enabled = true
+region_rect = Rect2(40, 64, 16, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldController/World/ActorController/PlayerFake"]
+shape = SubResource("CapsuleShape2D_i4uu2")
+
+[node name="WorldArea" type="Node2D" parent="WorldController/World"]
+script = ExtResource("2_g44ef")
+
+[node name="TerrainRenderer" type="Node" parent="WorldController/World/WorldArea"]
+script = ExtResource("7_q5m8v")
+
+[node name="ChunkController" type="Node2D" parent="WorldController/World/WorldArea" node_paths=PackedStringArray("ChunkStore", "ProcessorContainer")]
+script = ExtResource("4_5hny0")
+_AreaConfigs = Array[Object]([SubResource("Resource_bmqsv"), SubResource("Resource_0xjnf"), SubResource("Resource_8x76a"), SubResource("Resource_2oky5"), SubResource("Resource_cfypd")])
+ChunkStore = NodePath("Storage")
+ProcessorContainer = NodePath("Processors")
+
+[node name="Processors" type="Node" parent="WorldController/World/WorldArea/ChunkController"]
+
+[node name="ProcessorPrepare" type="Node" parent="WorldController/World/WorldArea/ChunkController/Processors"]
+script = ExtResource("9_pmyoh")
+Step = 1
+ProcessState = 1
+
+[node name="ProcessorLoad" type="Node" parent="WorldController/World/WorldArea/ChunkController/Processors"]
+script = ExtResource("10_fgn85")
+Step = 2
+ProcessState = 2
+
+[node name="ProcessorRender" type="Node" parent="WorldController/World/WorldArea/ChunkController/Processors"]
+script = ExtResource("11_hae04")
+BatchSize = 3
+Step = 3
+ProcessState = 3
+
+[node name="ProcessorEntitySpawn" type="Node" parent="WorldController/World/WorldArea/ChunkController/Processors"]
+script = ExtResource("12_8qy35")
+UseBatches = true
+BatchSize = 1
+Step = 4
+ProcessState = 4
+
+[node name="ProcessorActorSpawn" type="Node" parent="WorldController/World/WorldArea/ChunkController/Processors"]
+script = ExtResource("13_7wp5i")
+UseBatches = true
+BatchSize = 1
+Step = 5
+ProcessState = 5
+
+[node name="ProcessorActorDespawn" type="Node" parent="WorldController/World/WorldArea/ChunkController/Processors"]
+script = ExtResource("14_7kvsu")
+UseBatches = true
+BatchSize = 1
+Step = 6
+ProcessState = 4
+
+[node name="ProcessorEntityDespawn" type="Node" parent="WorldController/World/WorldArea/ChunkController/Processors"]
+script = ExtResource("15_5sm1t")
+UseBatches = true
+BatchSize = 1
+Step = 7
+ProcessState = 3
+
+[node name="ProcessorUnrender" type="Node" parent="WorldController/World/WorldArea/ChunkController/Processors"]
+script = ExtResource("16_v71pk")
+UseBatches = true
+BatchSize = 1
+Step = 8
+ProcessState = 2
+
+[node name="ProcessorUnload" type="Node" parent="WorldController/World/WorldArea/ChunkController/Processors"]
+script = ExtResource("17_4oca7")
+UseBatches = true
+BatchSize = 1
+Step = 9
+ProcessState = 1
+
+[node name="Storage" type="Node" parent="WorldController/World/WorldArea/ChunkController" node_paths=PackedStringArray("ChunkProvider")]
+script = ExtResource("5_yl3o3")
+ChunkProvider = NodePath("ChunkProvider")
+
+[node name="ChunkProvider" type="Node" parent="WorldController/World/WorldArea/ChunkController/Storage"]
+script = ExtResource("2_u5ase")
+PoolSize = 300
+
+[node name="Tilemaps" type="Node2D" parent="WorldController/World"]
+z_index = -1
+script = ExtResource("24_77lpq")
+LayerMapping = {
+0: ExtResource("24_kjgha")
+}
+
+[node name="UndergroundLayer" type="TileMapLayer" parent="WorldController/World/Tilemaps"]
+tile_set = ExtResource("26_shhqh")
+script = ExtResource("26_de3bl")
+StrategyTileSet = ExtResource("27_dwdxy")
+
+[node name="SubSurfaceLayer" type="TileMapLayer" parent="WorldController/World/Tilemaps"]
+tile_set = ExtResource("26_shhqh")
+script = ExtResource("26_de3bl")
+StrategyTileSet = ExtResource("27_dwdxy")
+
+[node name="WaterLevel" type="TileMapLayer" parent="WorldController/World/Tilemaps"]
+tile_set = ExtResource("26_shhqh")
+script = ExtResource("26_de3bl")
+StrategyTileSet = ExtResource("27_dwdxy")
+
+[node name="SurfaceLevel" type="TileMapLayer" parent="WorldController/World/Tilemaps"]
+tile_set = ExtResource("26_shhqh")
+script = ExtResource("26_de3bl")
+StrategyTileSet = ExtResource("27_dwdxy")
+
+[connection signal="SectorEntered" from="PlayerController/PlayerTracker" to="WorldController/World/WorldArea/ChunkController" method="_OnPlayerTrackerSectorEntered"]
+[connection signal="SectorExited" from="PlayerController/PlayerTracker" to="WorldController/World/WorldArea/ChunkController" method="_OnPlayerTrackerSectorExited"]

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d35e2e03o8br2"]
+
+[ext_resource type="Script" path="res://scripts/tilemap/TilemapLayerChunk.cs" id="1_wplks"]
+
+[node name="TilemapLayerChunk" type="TileMapLayer"]
+script = ExtResource("1_wplks")

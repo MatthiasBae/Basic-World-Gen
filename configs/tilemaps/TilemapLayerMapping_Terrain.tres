@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="TilemapLayerMapping" load_steps=2 format=3 uid="uid://ballnfful811t"]
+
+[ext_resource type="Script" path="res://scripts/tilemap/TilemapLayerMapping.cs" id="1_l2knx"]
+
+[resource]
+script = ExtResource("1_l2knx")
+Layers = Array[int]([0, 1, 2, 3])

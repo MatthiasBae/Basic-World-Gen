@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="EnvironmentAbioticFactorNoises" load_steps=4 format=3 uid="uid://d2kt5dvtir4l7"]
+
+[ext_resource type="FastNoiseLite" uid="uid://cmd3hl4cb3b6s" path="res://resources/noises/biome/BiomeNoise_Humidity.tres" id="2_o3vv7"]
+[ext_resource type="FastNoiseLite" uid="uid://07ws1r2rm308" path="res://resources/noises/biome/BiomeNoise_Temperature.tres" id="3_ttyrn"]
+[ext_resource type="Script" path="res://scripts/environment/EnvironmentAbioticFactorNoises.cs" id="4_yim3i"]
+
+[resource]
+script = ExtResource("4_yim3i")
+TemperatureNoise = ExtResource("3_ttyrn")
+HumidityNoise = ExtResource("2_o3vv7")
+ElevationNoise = ExtResource("3_ttyrn")

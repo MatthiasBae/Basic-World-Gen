@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="BiomeConfig" load_steps=7 format=3 uid="uid://nfolk3d5gqb5"]
+
+[ext_resource type="Resource" uid="uid://cuyac00xegcxq" path="res://configs/environment/AbioticFactors_Biome_Plain.tres" id="1_3i3rh"]
+[ext_resource type="Resource" uid="uid://bsuggktro3vhr" path="res://configs/terrain/TerrainLayerConfig_Underground_Dirt .tres" id="2_8qn32"]
+[ext_resource type="Resource" uid="uid://c012ya1t458h" path="res://configs/terrain/TerrainLayerConfig_SubSurface_Sand.tres" id="3_fpb3h"]
+[ext_resource type="Resource" uid="uid://cbdbmcer8la8" path="res://configs/terrain/TerrainLayerConfig_Water_Rivers.tres" id="3_thl2i"]
+[ext_resource type="Resource" uid="uid://cb101d6fis00i" path="res://configs/terrain/TerrainLayerConfig_Surface_Default.tres" id="5_do608"]
+[ext_resource type="Script" path="res://scripts/biomes/BiomeConfig.cs" id="5_sh5l0"]
+
+[resource]
+script = ExtResource("5_sh5l0")
+Name = "Plain"
+Description = ""
+AbioticFactorValues = ExtResource("1_3i3rh")
+TerrainLayerConfigs = {
+0: ExtResource("2_8qn32"),
+1: ExtResource("3_fpb3h"),
+2: ExtResource("3_thl2i"),
+3: ExtResource("5_do608")
+}
