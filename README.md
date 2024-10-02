@@ -7,7 +7,22 @@ It includes:
 - Custom Autotiling (only Minimal 3x3 and Full 3x3 possible atm)
 - Terrain rendering rules to avoid perfomance issues
 - Customizable worlds with configurable biomes and terrains
-  
+
+## Examples
+
+One Biome:
+
+
+https://github.com/user-attachments/assets/8b23c26f-7c92-449c-abd2-d74567c081a0
+
+
+Two Biomes
+
+
+
+https://github.com/user-attachments/assets/474d61be-70d5-4ce1-8216-0c969801c4bf
+
+
 
 ## Chunk System
 
