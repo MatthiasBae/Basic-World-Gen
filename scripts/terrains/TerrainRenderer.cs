@@ -22,39 +22,20 @@ public partial class TerrainRenderer : Node {
     public static List<FieldTerrainRenderData> GetFieldRenderData(Field field, Tilemap tilemap) {
         var renderData = new List<FieldTerrainRenderData>();
         var fieldNeighbors = ChunkStore.GetSurroundingFields(field.FieldPosition);
-        foreach(var (layer, fieldTerrainLayer) in field.Terrain.Layers) {
+        foreach(var (layer, fieldTerrainLayer) in field.Terrain.Layers.OrderByDescending(entry => entry.Key)) {
             if (!fieldTerrainLayer.HasTerrain) {
-                    continue;
+                continue;
             }
             var tileSetSourceId = fieldTerrainLayer.Config.AtlasSourceId;
-            var nextTopLayer = field.Terrain.GetLayerAbove(layer);
-            var hasLayerAbove = layer < nextTopLayer;
-            if (hasLayerAbove) {
-                var layerAbove = tilemap.GetLayerAbove(layer);
-                var layerAboveStrategyTileSet = tilemap.Layers[layerAbove].StrategyTileSet;
-                var layerAboveStrategyTileSetSource = layerAboveStrategyTileSet.GetTileSetSource(tileSetSourceId);
-                var layerAboveBitMask = layerAboveStrategyTileSetSource.BitMask;
-                var layerAboveFieldTerrainLayer = field.Terrain.Layers[layerAbove];
-                var layerAboveTerrainMask = ChunkHelper.ToTerrainMask(fieldNeighbors, layerAbove);
-                var layerAbovePresenceMask = layerAboveTerrainMask.ToPresenceMask();
-                var layerAboveBinaryValue = StrategyTilingHelper.GetBinaryValue(layerAboveBitMask, layerAbovePresenceMask);
-                    
-                var strategyTileAbove = layerAboveStrategyTileSetSource.GetTile(layerAboveBinaryValue);
-                if (layerAboveFieldTerrainLayer.HasTerrain && !strategyTileAbove.IsEdge) {
-                    continue;
-                }
-            }
-            //needed for checking if the layer has an edge tile
+            var terrainMask = ChunkHelper.ToTerrainMask(fieldNeighbors, layer);
+            var presenceMask = terrainMask.ToPresenceMask();
             var strategyTileSet = tilemap.Layers[layer].StrategyTileSet;
             var strategyTileSetSource = strategyTileSet.GetTileSetSource(tileSetSourceId);
             var layerBitMask = strategyTileSetSource.BitMask;
-            var terrainMask = ChunkHelper.ToTerrainMask(fieldNeighbors, layer);
-            var presenceMask = terrainMask.ToPresenceMask();
-                    
             var layerBinaryValue = StrategyTilingHelper.GetBinaryValue(layerBitMask, presenceMask);
             var strategyTile = strategyTileSetSource.GetTile(layerBinaryValue);
             var strategyTileVariant = strategyTile.GetRandomVariant();
-
+                    
             renderData.Add(new FieldTerrainRenderData {
                 FieldPosition = field.FieldPosition,
                 LocalPosition = field.LocalPosition,
@@ -62,6 +43,10 @@ public partial class TerrainRenderer : Node {
                 TileSetSourceId = tileSetSourceId,
                 AtlasCoordinate = strategyTileVariant.AtlasCoordinates
             });
+                    
+            if (!strategyTile.IsEdge) {
+                break;
+            }
         }
             
         return renderData;
