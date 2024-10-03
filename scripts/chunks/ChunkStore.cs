@@ -81,7 +81,7 @@ public partial class ChunkStore : Node {
             {
                 GetField(fieldPosition + NeighborCoordinate.TOPLEFT_OFFSET),
                 GetField(fieldPosition + NeighborCoordinate.LEFT_OFFSET),
-                GetField(fieldPosition + NeighborCoordinate.BOTTOM_OFFSET)
+                GetField(fieldPosition + NeighborCoordinate.BOTTOMLEFT_OFFSET)
             }, {
                 GetField(fieldPosition + NeighborCoordinate.TOP_OFFSET),
                 GetField(fieldPosition),
